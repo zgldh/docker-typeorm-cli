@@ -1,5 +1,6 @@
 # docker-typeorm-cli
 TypeORM CLI environment image with 
+- `env-cmd`
 - `ts-node`
 - `reflect-metadata`
 - `mysql`

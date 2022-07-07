@@ -5,7 +5,7 @@ LABEL version="0.0.1" \
 
 WORKDIR /app
 
-RUN npm install typeorm@0.2.41 typescript ts-node \
+RUN npm install typeorm@0.2.41 typescript ts-node env-cmd \
   reflect-metadata mysql pg sqlite3 mssql sql.js \
   oracledb mongodb@^3.6.0 \
   @sap/hana-client hdb-pool @google-cloud/spanner
