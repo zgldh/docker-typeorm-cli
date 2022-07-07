@@ -11,3 +11,10 @@ TypeORM CLI environment image with
 - `mongodb@^3.6.0`
 - `@sap/hana-client` `hdb-pool`
 - `@google-cloud/spanner`
+
+## Usage
+```
+docker run -it --rm -v `pwd`:/app/package zgldh/docker-typeorm-cli:latest sh
+
+ts-node /app/node_modules/.bin/typeorm migration:show
+```
